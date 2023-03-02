@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+
+.container {
+    border-radius: 20px;
+    padding: 30px;
+    width: 350px;
+    height: 600px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+b {
+    color: hsl(0, 0%, 100%);
+}
+
+b:hover, h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.ETH {
+    /* font-size: 16px; */
+    color: hsl(178, 100%, 50%);
+}
+
+.secondary-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.image-div{
+    width: 100%;
+    position: relative;
+}
+
+.image-div:hover .overlay {
+    opacity: 0.5;
+}
+
+.image {
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr {
+    border: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 20px;
+}
+
+.image-avater {
+    width: 30px;
+    margin-right: 20px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
