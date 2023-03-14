@@ -41,4 +41,4 @@ Well nothing much because i have built websites like this
 ## Author
 
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/iceberg61)
-- Twitter - [@yourusername](https://www.twitter.com/iceberg61)
+- Twitter - [@ayanakoji_kiyo](https://twitter.com/ayanakoji_kiyo)
